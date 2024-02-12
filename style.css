@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+
+
+form{
+	width: 350px;
+	height: 700px;
+	display: flex;
+	flex-direction: column; 
+	background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);	
+	padding: 40px 30px; 
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;	
+	border-radius: 8px;
+	text-align: center;
+}
+
+
+
+.none{	
+	display: none;
+}
+
+
+.start-btn{
+	background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);	
+	font-size: 1.8em;
+	padding: 24px 16px;
+	color: white;
+	border-radius: 14px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.start-btn:hover{
+	background: linear-gradient(109.6deg, rgb(21, 205, 168) 11.2%, rgb(9, 154, 151) 91.1%);	
+}
+
+
+h1{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+hr{
+	color: white;
+}
+
+
+label{
+	font-size: 1.3em;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 8px 0;
+}
+
+
+input{
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.2em;
+	padding: 10px 6px;
+
+}
+
+textarea{
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.1em;
+	padding: 10px 6px;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 30%;
+	font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+
+button{
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.2em;
+	padding: 10px 6px;
+	margin-top: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	cursor: pointer;
+	background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+	transition: 0.3s;
+}
+
+
+button:hover{
+	background: radial-gradient(circle at 7.5% 24%, rgb(215, 248, 247) 0%, rgb(190, 228, 210) 25.5%, rgb(250, 178, 172) 62.3%, rgb(237, 161, 193) 93.8%);
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
